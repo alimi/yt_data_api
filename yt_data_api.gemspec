@@ -8,8 +8,10 @@ Gem::Specification.new do |s|
   s.authors     = ["Ali Ibrahim"]
   s.email       = ["aibrahim2k2@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Adds functionality to access YouTube Data API}
+  s.description = %q{Create a new instance of YtDataApi::YtDataApiClient passing 
+                     user credentials (username, password) and YouTube developer key
+                     to access YouTube Data API using ClientLogin authentication.}
 
   s.rubyforge_project = "yt_data_api"
 
