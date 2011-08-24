@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "YtDataApi" do
+describe "YtDataApi::YtDataApiClient" do
   it "should create a new instance using ClientLogin authentication" do
     YtDataApi::YtDataApiClient.new(ENV['YT_USER'], ENV['YT_USER_PSWD'], ENV['YT_DEV_AUTH_KEY'])
   end
